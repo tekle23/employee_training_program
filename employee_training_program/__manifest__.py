@@ -5,7 +5,7 @@
     'description': """Manage employee training""",
     'author': "Tekle Yitayew",
     'company': "Odoo Ethiopia",
-    'category': 'HR',
+    'category': 'Human Resource',
     'depends': ['base_setup', 'hr'],
     'data': [
         'security/ir.model.access.csv',
