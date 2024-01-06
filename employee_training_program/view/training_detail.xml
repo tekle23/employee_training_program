@@ -26,7 +26,7 @@
                       <button name="action_approve" type="object" string="Approve" class="oe_highlight" states="draft"/>
                      <button name="action_validate" type="object" string="Validate" class="oe_highlight"  states="approve,draft"/>
                      <button name="action_reject" type="object" string="Reject" class="oe_highlight"  states="approve"/>
-                      <button name="action_progress" type="object" string="Progress" class="oe_highlight"  states="approve"/>
+                      <button name="action_progress" type="object" string="Progress" class="oe_highlight"  states="approve,validate"/>
                      <button name="action_complete" type="object" string="Complete" class="oe_highlight"  states="progress"/>
                 <field name="state" widget="statusbar" options="{'clickable': False}"/>
             </header>

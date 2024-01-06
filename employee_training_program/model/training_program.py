@@ -39,6 +39,7 @@ class TrainingDetail(models.Model):
     state = fields.Selection([
         ('draft', 'Draft'),
         ('approve', 'Approved'),
+        ('validate', 'Validate'),
         ('reject', 'Rejected'),
         ('progress', 'In Progress'),
         ('complete', 'Completed'),

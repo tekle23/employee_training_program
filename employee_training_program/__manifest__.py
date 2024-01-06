@@ -2,11 +2,9 @@
     'name': "Employee Training Program",
     'version': "16.0.0.1",
     'summary': """ HR Department module""",
-    'description': """holds all hr module features""",
-    'author': "Smart ERP Team",
-    'company': "Ashewa Technology Solutions",
-    'maintainer': "Ashewa Technology Solutions",
-    'website': "https://www.ashewa.com",
+    'description': """Manage employee training""",
+    'author': "Tekle Yitayew",
+    'company': "Odoo Ethiopia",
     'category': 'HR',
     'depends': ['base_setup', 'hr'],
     'data': [
@@ -20,5 +18,6 @@
     'license': "AGPL-3",
     'installable': True,
     'application': True,
-    # 'icon': 'static/description/icon/icon.png',
+    'auto_install': False,
+    'images': ['static/description/banner.gif'],
 }
