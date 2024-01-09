@@ -1,7 +1,7 @@
 {
     'name': "Employee Training Program",
     'version': "16.0.0.1",
-    'summary': """ HR Department module""",
+    'summary': """Manages your employee training program""",
     'description': """Manage employee training""",
     'author': "Tekle Yitayew",
     'company': "Odoo Ethiopia",
